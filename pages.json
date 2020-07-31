@@ -1,0 +1,112 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "黑马商城",
+				"navigationBarBackgroundColor": "#b50103"
+			}
+		},
+		{
+			"path": "pages/seek/seek",
+			"style": {
+				"navigationBarTitleText": "资讯"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText":"商品列表",
+				"enablePullDownRefresh":true
+			}
+		}, {
+			"path": "components/goods-list/goods-list",
+			"style": {
+				
+			}
+		}
+	    ,{
+            "path" : "pages/concat/concat",
+            "style" : {
+				"navigationBarTitleText":"联系我们"
+			}
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" : {
+				"navigationBarTitleText":"社区图片"
+			}
+        }
+        ,{
+            "path" : "pages/videos/videos",
+            "style" : {
+				"navigationBarTitleText":"学习视频"
+			}
+        }
+        ,{
+            "path" : "components/news-item/news-item",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" : {
+				"navigationBarTitleText":"资讯详情"
+			}
+        }
+        ,{
+            "path" : "pages/good-detail/good-detail",
+            "style" : {
+				"navigationBarTitleText":"黑马商城"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#b50103",
+		"backgroundColor": "#FFFFFF",
+		"onReachBottomDistance":50
+	},
+	"tabBar": {
+		"color": "#CCCCCC",
+		"selectedColor": "#DD524D",
+		"backgroundColor": "#f8f8f8",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/imgs/home.png",
+				"selectedIconPath": "static/imgs/home-active.png"
+			},
+			{
+				"pagePath": "pages/seek/seek",
+				"text": "资讯",
+				"iconPath": "static/imgs/news.png",
+				"selectedIconPath": "static/imgs/news-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/imgs/cart.png",
+				"selectedIconPath": "static/imgs/cart-active.png"
+
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/imgs/member.png",
+				"selectedIconPath": "static/imgs/member-active.png"
+			}
+		]
+	}
+}
